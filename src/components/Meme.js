@@ -28,7 +28,7 @@ export default function Meme() {
             [name]: value
         }))
     }
-    
+    //setAllMemes('');
     return (
         <main>
             <div className="form">
@@ -54,7 +54,7 @@ export default function Meme() {
                 >
                     Get a new meme image 🖼
                 </button>
-            </div>
+            </div>  
             <div className="meme">
                 <img src={meme.randomImage} className="meme--image" alt=""/>
                 <h2 className="meme--text top">{meme.topText}</h2>
