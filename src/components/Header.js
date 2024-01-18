@@ -3,7 +3,7 @@ import trollface from "../images/troll-face.png";
 
 export default function Header() {
     return (
-        <header className="header">
+        <header className="header" style={{}}>
             <img 
                 src={trollface} 
                 className="header--image"
