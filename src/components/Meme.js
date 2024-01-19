@@ -28,7 +28,6 @@ export default function Meme() {
             [name]: value
         }))
     }
-    //setAllMemes('');
     return (
         <main>
             <div className="form">
