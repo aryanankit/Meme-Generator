@@ -1,6 +1,6 @@
 import React from "react"
 import trollface from "../images/troll-face.png";
-
+//Header.js
 export default function Header() {
     return (
         <header className="header" >
